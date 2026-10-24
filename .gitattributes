@@ -1,0 +1,4 @@
+# Files whose SHA-256 is verified at runtime must stay byte-identical.
+dgvoodoo/dgVoodoo.conf -text
+*.dll binary
+*.exe binary

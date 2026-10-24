@@ -1,0 +1,27 @@
+# Whitelist: everything is ignored unless listed below.
+# This keeps game files, test copies, logs, backups, build output and
+# third-party binaries out of the repository by default.
+*
+!*/
+
+!/.gitignore
+!/.gitattributes
+!/README.md
+!/LICENSE
+!/THIRD_PARTY_NOTICES.md
+!/licenses/UPX/COPYING
+!/licenses/UPX/LICENSE
+
+!/luxor_fix.py
+!/luxor_fullscreen.py
+!/luxor_cursor.py
+!/luxor_gui.py
+!/VISIQUE-Luxor-Fix.spec
+!/build_windows.bat
+
+!/dgvoodoo/dgVoodoo.conf
+
+!/cursorfix/README.md
+!/cursorfix/visique_cursor.c
+!/cursorfix/visique_cursor.def
+!/cursorfix/visique_cursor.dll
